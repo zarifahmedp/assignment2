@@ -193,9 +193,7 @@ margin-top: 30px;
 .title {
     margin: 0;
 }
-.container {
-    flex: none;
-}
+
 .top-area {
 display: block;
 }
@@ -204,16 +202,15 @@ display: block;
     width: 200px;
     height: 200px;
 }
+
 .top-banner img {
     height: 259px;
     width: 329px;
     padding-top: 100px;
 
 }
-.title {
-    display: block;
-    
-}
+
+
 .h1-style {
     font-size: 36px;
     width: 276px;
@@ -225,9 +222,10 @@ display: block;
 body {
     width: 360px;
 }
-header {
-    display: block;
-}
+
+/* 2nd and 3rd part  */
+
+/* Tournament section starts */
 
 .players{
     display: grid;
@@ -262,6 +260,8 @@ header {
       border-radius: 10px;
 font-size: 30px;
   }
+/* tournament section ends  */
+
 /* header media query  */
 .logo img {
     width: 269px;
