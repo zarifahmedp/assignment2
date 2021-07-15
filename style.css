@@ -205,7 +205,10 @@ display: block;
     height: 200px;
 }
 .top-banner img {
-    height: ;
+    height: 259px;
+    width: 329px;
+    padding-top: 100px;
+
 }
 .title {
     display: block;
@@ -249,7 +252,21 @@ header {
     font-size: 30px; }
 
 
-
+  .section-title {
+      margin-left: 10%;
+      color: #131224;
+      font-size: 40px;
+      background-color: rgba(211, 211, 211, 0.644);
+      width: 70%;
+      padding-left: 15px;
+      border-radius: 10px;
+font-size: 30px;
+  }
+/* header media query  */
+.logo img {
+    width: 269px;
+    height: 63px;
+}
 
 
 
