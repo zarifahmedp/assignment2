@@ -1,0 +1,175 @@
+/* Poppins font import  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+/* Body part  */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+main {
+    margin-bottom: 100px;
+}
+/* Header starts  */
+.top-area {
+    background-color: #2D25A0;
+width: 100%;
+height: 677px;
+left: 0px;
+top: 0px;
+display: flex;
+}
+/* button font style  */
+.h1-style {
+    color: white;
+    font-size: 64px;
+    width: 500px;
+    font-weight: 700;
+}
+/* title style  */
+.title {
+    margin-left: 256px;
+    margin-top: 130px;
+}
+/* button style  */
+.watch-live-button a {
+text-decoration: none;
+color: white;
+background-color: #E02C6D;
+padding: 10px 24px 10px 24px;
+}
+
+/* --------------button hover animation---------------
+------------------------------- ------------------------- */
+ .watch-live-button a:hover {
+        text-decoration: none;
+        color: white;
+        background-color: blue;
+        padding: 10px 24px 10px 24px;
+        border: 2px solid #ffffff;
+        box-shadow: 0px 0px 10px;
+        }
+
+
+/* banner images style  */
+.top-banner {
+   margin-left: 450px;
+    margin-top: 153px;
+}
+/*---------header ends---------  
+------------------------------*/
+
+/* Section starts */
+
+.player {
+    padding-top: 70px;
+    width: 300px;
+
+}
+.container {
+    display: flex;
+    align-items: center;
+justify-content: center;
+}
+
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 60px;
+    grid-row-gap: 40px;
+  justify-content: center;
+  margin-bottom: 100px;
+  }
+  /* main part style ends  */
+
+  /* footer starts */
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+  .icons{
+      display: flex;
+    justify-content: center;
+
+  }
+  .icon {
+      background-color: rgba(211, 211, 211, 0.822);
+      padding: 5px 5px 5px 5px;
+      border-radius: 10px;
+      margin-left: 10px;
+  }
+  .copyright {
+      display: flex;
+      justify-content: center;
+  }
+
+  /* section 2  */
+  /* tournament images animation */
+
+
+  /* tournament image animation  */
+
+  .tournament img:hover {
+transform: scale(1.5);
+transition: .5s;
+  }
+  .tournaments {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+  }
+  .tournament {
+      padding-left: 30px;
+  }
+  .tournament img {
+      border-radius: 10px;
+  }
+
+  /* section title style  */
+
+  .section-title {
+      margin-left: 25%;
+      color: #2D25A0;
+      font-size: 40px;
+      background-color: lightgrey;
+      width: 22%;
+      padding-left: 15px;
+      border-radius: 10px;
+
+  }
+
+  /* Plans styling  */
+
+  .plan {
+background-image: linear-gradient(orange,gold);
+padding: 1px 10px 1px 10px;
+color: white;
+width: 11%;
+border-radius: 20px;
+margin-right: 40px;
+margin-left: 70px;
+  }
+.pro-plans {
+    display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 30px;
+
+}
+.premium-plans {
+    margin-top: 100px;
+}
+
+/* plans title  */
+.plans-title {
+    margin-left: 25%;
+    color: #2D25A0;
+    font-size: 40px;
+    background-color: lightgrey;
+    width: 25%;
+    padding-left: 15px;
+    border-radius: 10px;
+}
